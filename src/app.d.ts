@@ -8,8 +8,8 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 		interface Locals {
-			user: import("lucia").User
-			session: import("lucia").Session
+			user: import('lucia').User
+			session: import('lucia').Session
 		}
 	}
 }
